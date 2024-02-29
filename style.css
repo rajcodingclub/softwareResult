@@ -182,7 +182,6 @@
     column-gap: 50px;
 }
 
-
 @media(max-width: 480px){
     .header {
         height: 102px;
