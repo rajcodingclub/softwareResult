@@ -181,3 +181,77 @@
     grid-template-columns: auto auto auto;
     column-gap: 50px;
 }
+
+
+@media(max-width: 480px){
+    .header {
+        height: 102px;
+    }
+    #logo {
+        width: 60px;
+        margin: 20px;
+    }
+    .allheading{
+        font-size: 8px;
+        margin-left: 7%;
+    }
+    .navbar{
+        height: 30px;
+    }
+    .navbar ul{
+        line-height: 1.5;
+    }
+    .navbar ul li a{
+        font-size: 10px;
+    }
+    .qote{
+        font-size: 10px;
+    }
+    .toplinks{
+        margin: 50px 5px;
+        text-align: center;  
+        font-size: 6px;
+    }
+    .tools a {
+        color: white;
+        font-size: 10px;
+    }
+    .tools h4 {
+        display: inline-block;
+        background-color: black;
+        padding: 5px 20px;
+        border-radius: 15px;
+    }
+    .tools h2 {
+        padding: 0px 40px 15px 44px;
+        font-size: 25px;
+    }
+    .grid-view{
+        margin: 50px 5px;
+    }
+    .grid-view a{
+        font-size: .5em;
+    }
+    .container1{
+        margin: 50px 10px;
+        font-size: 8px;
+    }
+    .container1 a{
+        font-size: 10px;
+    }
+    .box li{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .container2{
+        width: 90%;
+        font-size: 10px;
+    }
+    .footerLayout h3{
+        padding: 5px 3px;
+    }
+    .footerLayout{
+        column-gap: 5px;
+        font-size: 7px;
+    }
+}
