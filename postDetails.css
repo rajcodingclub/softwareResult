@@ -1,58 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial,Helvetica,sans-serif;
-}
-.header{
-    width: 100%;
-    height: 200px;
-    margin: auto;
-    background-color: rgb(7, 7, 107);
-    color: white;
-    display: flex;
-    align-items: center;
-}
-.allheading{
-    text-align: center;
-    margin-left: 20%;
-}
-#logo{
-    border-radius: 100px;
-    width: 160px;
-    margin: 20px;
-}
-#heading{
-    font-size: 3em;
-}
-.navbar{
-    background-color: black;
-    width: 100%;
-    height: 50px;
-    margin: auto;
-}
-.navbar ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 3;
-    padding: 0px 10px;
-}
-.navbar ul li{
-    list-style: none;
-    text-align: center;
-    margin: auto;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: large;
-    text-align: center;
-}
-.navbar ul li a:hover{
-    color: orangered;
-}
-
 
 .container{
     margin: 100px 10%;
@@ -62,6 +7,8 @@
     color: red;
     font-size: larger;
     border:none;
+    padding: 5px;
+    background-color: white;
 }
 .table1 tr{
     margin: 50px 5px;
@@ -69,19 +16,23 @@
 .table1 td{
     font-size: 1.2rem;
     border: none;
+    padding: 0;
+    text-align: left;
 }
 .timeTable table,th,td{
     border: 2px solid black;
     border-collapse: collapse;
 }
 .table2{
-    margin: 50px 100px;
+    margin: 50px 0px;
 
 }
 .table2 th{
     text-align: center;
     font-size: 1.5rem;
     line-height: 2;
+    color: rgb(7, 7, 107);
+    background-color: white;
 }
 .table2 td{
     font-size: 20px;
@@ -105,4 +56,38 @@
     margin: 50px 0px;
     color: red;
 }
-
+@media(max-width: 480px){
+    .container{
+        font-size: 10px;
+        margin: 20px 1%;
+        text-align: left;
+    }
+    .table1 th{
+        font-size: 10px;
+    }
+    .table1 tr{
+        margin: 10px 1px;
+    }
+    .table1 td{
+        font-size: 0.5rem;
+        text-align: left;
+    }
+    .table2{
+        margin: 50px 1px;
+    }
+    .table2 th{
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    .table2 td{
+        font-size: 5px;
+        line-height: 1.5;
+        padding: 10px 1px;
+    }
+    .table2 h3{
+        font-size: small;
+    }
+    .app a{
+        font-size: large;
+    }
+}
