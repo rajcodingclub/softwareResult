@@ -230,7 +230,9 @@ table td{
         margin: 20px 2px;
         font-size: 10px;
     }
+}
 
+/* contact us css end */
 
 @media(max-width: 480px){
     .header {
