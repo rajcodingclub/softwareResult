@@ -225,6 +225,11 @@ table h2{
 table td{
     text-align: center;
 }
+@media(max-width: 480px){
+    .container{
+        margin: 20px 2px;
+        font-size: 10px;
+    }
 
 
 @media(max-width: 480px){
